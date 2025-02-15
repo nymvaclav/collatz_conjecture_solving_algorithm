@@ -1,0 +1,11 @@
+{
+    "start_from_int": 2367634278637862836782367823253326537892,
+    "how_many_int_to_check": 100,
+    "stop_at_int": 0,
+    "stop_if_loop_is_found": 2,
+    "exclude_int": [],
+    "create_logs": true,
+    "print_info": false,
+    "print_operations": false,
+    "print_results": 3
+}
