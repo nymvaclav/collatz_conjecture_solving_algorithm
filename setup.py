@@ -10,11 +10,11 @@ for dir in files_and_directories_to_check:
         missing_files += [dir]
 
 if missing_files != []:
-    print("Warning! The folowing files or directories which are critical for this program to function correctly were not found:")
+    print("\033[91mWarning! The folowing files or directories which are critical for this program to function correctly were not found:\033[0m")
     for file in missing_files:
         print(file)
     print("Please, clone this repository into your device for the most recent (and working) version of this program.")
-    print("$ git clone https://github.com/nymvaclav/collatz_conjecture_solving_algorithm")
+    print("$ git clone https://github.com/nymvaclav/collatz_conjecture_solving_algorithm\n")
 
 # 2) Preferences
 
